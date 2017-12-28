@@ -1,0 +1,112 @@
+/*
+  Table of Contents
+    1. General
+    2. Main Header
+    3. Homepage 
+    4. Main Footer
+    5. Colors & Borders
+    6. Media Queries
+*/
+
+/***********************************
+GENERAL
+***********************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 1em;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header,
+.main-footer {
+	padding: 3%;
+}
+
+
+
+/***********************************
+MAIN HEADER
+***********************************/
+
+
+
+/***********************************
+HOMEPAGE
+***********************************/
+
+.homepage {
+	margin: 0 3%;
+}
+
+
+
+/***********************************
+MAIN FOOTER
+***********************************/
+
+
+
+/***********************************
+COLORS & BORDERS
+***********************************/
+
+/* General */
+body {
+	color: #800080;
+}
+
+a {
+	color: #80277f;
+}
+
+a:hover {
+	color: #ffc794;
+}
+
+/* Main Header */
+.main-header {
+	background-color: #f2967c;
+}
+
+/* Hero */
+.tagline {
+	color: #f2967c;
+}
+
+/***********************************
+MEDIA QUERIES
+***********************************/
