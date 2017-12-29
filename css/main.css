@@ -52,8 +52,9 @@ a {
 }
 
 .main-header,
-.main-footer {
-	padding: 3%;
+.main-footer,
+.homepage > section {
+	padding: 0 3%;
 }
 
 
@@ -67,10 +68,6 @@ MAIN HEADER
 /***********************************
 HOMEPAGE
 ***********************************/
-
-.homepage {
-	margin: 0 3%;
-}
 
 
 
@@ -97,15 +94,19 @@ a:hover {
 	color: #ffc794;
 }
 
-/* Main Header */
-.main-header {
-	background-color: #f2967c;
+.services {
+	background-color: rgba(242, 150, 124, 0.65);
 }
 
-/* Hero */
-.tagline {
-	color: #f2967c;
+.hero,
+.testimonials {
+	background-color: rgba(193, 160, 196, 0.5);
 }
+
+/* Main Header */
+
+
+/* Hero */
 
 /***********************************
 MEDIA QUERIES
