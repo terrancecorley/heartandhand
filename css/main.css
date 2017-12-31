@@ -33,7 +33,9 @@ body {
 
 h3 {
 	font-family: 'Raleway', sans-serif;
+	font-size: 1.3rem;
 	text-transform: uppercase;
+	margin-top: 0;
 }
 
 img {
@@ -56,6 +58,10 @@ a {
 	padding: 0 3%;
 }
 
+.homepage > section {
+	padding: 2.8em 3%;
+}
+
 
 
 /***********************************
@@ -63,10 +69,15 @@ MAIN HEADER
 ***********************************/
 
 .main-header {
-	font-size: 1rem;
+	font-size: 0.925rem;
 	font-weight: bold;
 	text-align: center;
+	margin-bottom: 0.8em;
 	padding: 1.2em 3%;
+}
+
+.logo {
+	margin-bottom: 2em;
 }
 
 .main-header nav ul {
@@ -76,9 +87,7 @@ MAIN HEADER
 
 .main-header nav a {
 	margin: 0 0.2em;
-	padding: 0.4em;
-	border-bottom-color: #ffc794;
-	transition: color 0.1s ease-in-out;
+	padding: 0.4em 0.2em;
 }
 
 
@@ -86,6 +95,37 @@ MAIN HEADER
 HOMEPAGE
 ***********************************/
 
+.homepage h3,
+.homepage .hero {
+	text-align: center;
+}
+
+/* Hero */
+.hero img {
+	margin-bottom: 0.5em;
+}
+
+.hero p {
+	font-size: 1.2rem;
+	font-style: italic;
+	margin: 0;
+}
+
+/* Services */
+.services {
+	font-size: 1rem;
+}
+
+.services ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px 10px;
+	text-align: center;
+}
+
+.services li {
+	padding: 0.5em;
+}
 
 
 /***********************************
@@ -121,11 +161,27 @@ a:hover {
 }
 
 /* Main Header */
+.main-header nav a {
+	border-bottom-color: #ffc794;
+	transition: color 0.1s ease-in-out;
+}
+
 .main-header nav a:hover {
 	border-bottom: 2px solid #ffc794;
 }
 
 /* Hero */
+.hero img {
+	border: 2px solid;
+	border-radius: 50%;
+}
+
+/* Services */
+.services li {
+	border: 2px solid;
+	border-radius: 1em;
+	background-color: #fefefe;
+}
 
 /***********************************
 MEDIA QUERIES
