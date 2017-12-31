@@ -51,9 +51,8 @@ a {
 	text-decoration: none;
 }
 
-.main-header,
-.main-footer,
-.homepage > section {
+.homepage > section,
+.main-footer {
 	padding: 0 3%;
 }
 
@@ -63,6 +62,24 @@ a {
 MAIN HEADER
 ***********************************/
 
+.main-header {
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 1.2em 3%;
+}
+
+.main-header nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-header nav a {
+	margin: 0 0.2em;
+	padding: 0.4em;
+	border-bottom-color: #ffc794;
+	transition: color 0.1s ease-in-out;
+}
 
 
 /***********************************
@@ -104,7 +121,9 @@ a:hover {
 }
 
 /* Main Header */
-
+.main-header nav a:hover {
+	border-bottom: 2px solid #ffc794;
+}
 
 /* Hero */
 
