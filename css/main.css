@@ -53,15 +53,9 @@ a {
 	text-decoration: none;
 }
 
-.homepage > section,
-.main-footer {
-	padding: 0 3%;
-}
-
 .homepage > section {
-	padding: 2.8em 3%;
+	padding: 3.8em 3%;
 }
-
 
 
 /***********************************
@@ -100,6 +94,10 @@ HOMEPAGE
 	text-align: center;
 }
 
+.homepage > section h3 {
+	letter-spacing: 1px;
+}
+
 /* Hero */
 .hero img {
 	margin-bottom: 0.5em;
@@ -127,10 +125,38 @@ HOMEPAGE
 	padding: 0.5em;
 }
 
+/* Testimonials */
+.testimonials {
+	font-size: 1rem;
+}
+
+.first-testimonial {
+	margin-bottom: 2.5em;
+}
+
+.first-testimonial img {
+	float: left;
+	margin-right: 0.5em;
+}
+
+.second-testimonial img {
+	float: right;
+	margin-left: 0.5em;
+}
 
 /***********************************
 MAIN FOOTER
 ***********************************/
+
+.main-footer {
+	font-size: 0.8rem;
+	text-align: center;
+	padding: 5em 3% 2em;
+}
+
+.main-footer p {
+	margin: 0;
+}
 
 
 
@@ -152,12 +178,16 @@ a:hover {
 }
 
 .services {
-	background-color: rgba(242, 150, 124, 0.65);
+	background-color: #fff;
 }
 
 .hero,
 .testimonials {
 	background-color: rgba(193, 160, 196, 0.5);
+}
+
+.homepage h3 {
+	border-bottom: 2px solid;
 }
 
 /* Main Header */
@@ -178,9 +208,14 @@ a:hover {
 
 /* Services */
 .services li {
-	border: 2px solid;
+	border: 2px solid #800080;
 	border-radius: 1em;
 	background-color: #fefefe;
+}
+
+.services li:hover {
+	background-color: rgba(128, 0, 128, 0.65);
+	color: #fefefe;
 }
 
 /***********************************
